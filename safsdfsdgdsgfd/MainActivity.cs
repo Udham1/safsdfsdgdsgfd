@@ -29,6 +29,12 @@ namespace safsdfsdgdsgfd
 				button.Text = string.Format ("{0} clicks!", count++);
 			};
 		}
+
+		public void TestMethod ()
+		{
+			Console.WriteLine ("Test method");
+		}
+
 	}
 }
 
